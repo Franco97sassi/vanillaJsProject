@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal@4/minimal.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Todo en Aberturas  </h1>
+    
+    
+    <button id="cesta-carrito"><i class="fas fa-shopping-cart"><span id="contador-carrito">0</span></i></button>
+  </header>
+
+  <main id="producto-contenedor">
+
+  </main>
+
+  <div class="modal-contenedor">
+    <div class="modal-carrito">
+      <h3>Carrito</h3>
+      <button id="btn-cerrar-carrito"><i class="fas fa-times-circle"></i></button>
+      <div id="carrito-contenedor">
+
+      </div>
+      <p class="precioProducto">Subtotal: $ <span id="precioSubtotal"></span></p>
+      <p class="precioProducto">IVA: $ <span id="precioIVA"></span></p>
+      <p class="precioProducto">Envío: <span id="envio"></span></p>
+      <p class="precioProducto">Total: $ <span id="precioTotal"></span></p>
+
+      <button class ="btn vaciar-carrito" id="btn-eliminar-todo-del-carrito">Vaciar Carrito</button>
+    </div>
+  </div>
+
+  <script src="./src/stock.js" type="module"></script>
+  <script src="./src/modal.js" type="module"></script>
+  <script src="./src/storage.js" type="module"></script>
+  <script src="./src/actualizarCarrito.js" type="module"></script>
+  <script src="./src/accionesCarrito.js" type="module"></script>
+  <script src="./src/obtenerProductos.js" type="module"></script>
+  <script src="./src/App.js" type="module"></script>
+  <script src="./src/index.js" type="module"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.js" integrity="sha512-ZHzbWDQKpcZxIT9l5KhcnwQTidZFzwK/c7gpUUsFvGjEsxPusdUCyFxjjpc7e/Wj7vLhfMujNx7COwOmzbn+2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script>
+</body>
+
+</html>
