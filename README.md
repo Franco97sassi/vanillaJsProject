@@ -1,10 +1,6 @@
 ﻿# Windows Shop made with Vanilla Js
  
 E-Commerce project leveraging Vanilla JS for dynamic DOM manipulation and Bootstrap for streamlined product addition to the shopping cart.
-
-Installation
-Clone the repository:
-git clone
  
 ## Installation
 1. Clone the repository:
@@ -18,7 +14,8 @@ git clone
 ## Key Features
 - **Home:**
  List of products such as windows and doors with their respective descriptions, prices and an add-to-cart button
- 
+- **Cart:**
+ Opens in a semi-popup window where selected products, prices, quantities, subtotal, and other costs such as VAT, shipping, and of course, the options to purchase and empty the cart are displayed.
 
 ## Stack
 - Html
