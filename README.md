@@ -5,10 +5,8 @@ E-Commerce project leveraging Vanilla JS for dynamic DOM manipulation and Bootst
 ## Installation
 1. Clone the repository:
    - git clone
-2. Navigate to the project directory:
-   - cd project
- 
-3. Start the application in development mode:
+   - 
+2. Start the application in development mode:
    - Run go Live
   
 ## Key Features
