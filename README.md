@@ -1,9 +1,11 @@
+ # Windows Shop made with Vanilla Js
+
  <a href="https://franco97sassi.github.io/vanillaJsProject/">
 
  <img src="https://i.imgur.com/mjsqAit.png" alt="Fondo" width="100%" />
 </a>
- # Windows Shop made with Vanilla Js
- 
+
+## Description
 E-Commerce project leveraging Vanilla JS for dynamic DOM manipulation and Bootstrap for streamlined product addition to the shopping cart.
  ## Installation
 1. Clone the repository:
