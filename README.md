@@ -1,7 +1,7 @@
 ﻿# Windows Shop made with Vanilla Js
  
 E-Commerce project leveraging Vanilla JS for dynamic DOM manipulation and Bootstrap for streamlined product addition to the shopping cart.
- 
+ <img src="https://imgur.com/a/wdSbhtP" alt="Django Logo" width="100%" />
 ## Installation
 1. Clone the repository:
    - git clone
